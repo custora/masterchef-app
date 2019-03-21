@@ -10,7 +10,7 @@ class HomeController < ApplicationController
         ].compact.join(', ')
       end
 
-    render text: text
+    render plain: text
   end
 
   private
